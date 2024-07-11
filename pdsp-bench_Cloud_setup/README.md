@@ -11,7 +11,7 @@ This is a demonstration of a *repository-based* Cloudlab profile. Repository bas
 1. [General Steps](#general)
 1. [Setup CloudLab Cluster](#setupCluster)
 1. [Important Notes](#importantNotes)
-1. [Next steps: Setup and Start Controller](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme)
+1. [Next steps: Setup and Start Controller](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme)
 
 ## Prerequisite<a name="prerequisite"></a>
 - `CloudLab` - Create CloudLab account. [CloudLab](https://www.cloudlab.us/) is well known to offer infrastructure of bare metal server to researcher. You can easily create your account for free and access all the available resource. However, PDSP-Bench is not limited to CloudLab. Researchers can use their onw infrastructure to setup and explore the capabilites of PDSP-Bench. For PDSP-Bench, we used CloudLab for experiments and evaluation due wide availability of resources. 
@@ -19,7 +19,7 @@ This is a demonstration of a *repository-based* Cloudlab profile. Repository bas
 
 ## General steps: Cluster Configuration using CloudLab<a name="general"></a> 
 
-- After creating your account on CloudLab, [pdsp-bench_Cloud_setup](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme) can be used to begin the cluster setup process. It includes all necessary configuration files and profiles to configure the cloud environment. The experiment profile can be created using CloudLab which can be linked to a corresponding profile [pdsp-bench_Cloud_setup](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme). CloudLab utilizes this link to clone the setup files from GitLab/GitHub into the newly created profile. The entire process is streamlined to ensure minimal user intervention and a quick transition from setup to execution. 
+- After creating your account on CloudLab, [pdsp-bench_Cloud_setup](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme) can be used to begin the cluster setup process. It includes all necessary configuration files and profiles to configure the cloud environment. The experiment profile can be created using CloudLab which can be linked to a corresponding profile [pdsp-bench_Cloud_setup](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme). CloudLab utilizes this link to clone the setup files from GitLab/GitHub into the newly created profile. The entire process is streamlined to ensure minimal user intervention and a quick transition from setup to execution. 
 
 <h1 align="center">
 <img src="../reference_images/PDSP-Bench_WUI_screenshots/cloudlab_setup.png" alt="CloudLab setup steps" width="500"/>
@@ -47,7 +47,7 @@ As shown in the figure , the setup process unfolds as follows.
 
 - Navigate to [CloudLab](https://www.cloudlab.us/)
 - Login to the portal or create your account.
-- Create profile for your project by linking to repository [pdsp-bench_Cloud_setup](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme), e.g., PDSP-Bench profile.
+- Create profile for your project by linking to repository [pdsp-bench_Cloud_setup](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme), e.g., PDSP-Bench profile.
 - Create experiment cluster by intantiating new experiment
     - Select number of nodes
     - Select type of hardware

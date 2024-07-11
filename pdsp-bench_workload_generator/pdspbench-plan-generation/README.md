@@ -35,7 +35,7 @@
 
 ## Setup Cluster<a name="setup"></a>
 
-To setup a cluster and run the client follow the readme from [PDSPBench-Management Setup](https://github.com/pdspbench/PDSPBench/tree/main/pdspbench-management) for detailed setup instruction.
+To setup a cluster and run the client follow the readme from [PDSPBench-Management Setup](https://github.com/pratyushagnihotri/PDSPBench/tree/main/pdspbench-management) for detailed setup instruction.
 
 ## Run Arguments<a name="runArguments"></a>
 

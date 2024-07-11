@@ -2,9 +2,9 @@
 
 In the context of~\ac{dsp} benchmarking, web user interface (WUI) of PDSP-Bench is designed to simplify the performance benchmarking and forecasting process. 
 - It serves as a portal through which users can effortlessly deploy homogeneous and heterogeneous clusters, configure~\ac{dsp} settings, and select workloads and a variety of parallel query plans derived from both 14 real-world applications and 9 synthetic benchmarks. 
-- It  acts as a gateway, forwarding user-defined benchmark configurations to the [pdsp-bench_controller:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme), which orchestrates the initiation of the benchmarking process. 
+- It  acts as a gateway, forwarding user-defined benchmark configurations to the [pdsp-bench_controller:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme), which orchestrates the initiation of the benchmarking process. 
 - The visualization component of WUI enables real-time monitoring of key performance indicators such as end-to-end latency and resource utilization, offering immediate insights into DSP systems behavior under test conditions. 
-- [pdsp-bench_controller:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme) archives every test configuration and its resultant performance metrics in a database. This archival facilitates historical analysis and comparisons, enriching the benchmarking process with a temporal dimension. 
+- [pdsp-bench_controller:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme) archives every test configuration and its resultant performance metrics in a database. This archival facilitates historical analysis and comparisons, enriching the benchmarking process with a temporal dimension. 
 
 
 ## Getting Started with Web User Interface (WUI) 
@@ -14,7 +14,7 @@ In the context of~\ac{dsp} benchmarking, web user interface (WUI) of PDSP-Bench 
     - [local cluster environment](#local)
     - [remote cluster environment](#remote)
 1. [Setup CloudLab Cluster](#setupCluster)
-1. [Previous steps: Setup and Start Controller](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme)
+1. [Previous steps: Setup and Start Controller](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme)
 
 ## Prerequisite<a name="prerequisite"></a>
 - `Ubuntu 20.04` - we used Ubuntu 20.04 for setting up our local and remote clusters for PDSP-Bench.

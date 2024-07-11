@@ -31,10 +31,10 @@ With WUI allows prediction and performanc visualization of different learned cos
 ### Getting Started with Learned Components
 
 1. Previous step if you are using WUI
-    - [pdsp-bench_Cloud_setup:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme) 
-    - [pdsp-bench_controller:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme)
-    - [pdsp-bench_workload_generator:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_workload_generator#readme)
-    - [pdsp-bench_wui:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme) 
+    - [pdsp-bench_Cloud_setup:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_Cloud_setup#readme) 
+    - [pdsp-bench_controller:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme)
+    - [pdsp-bench_workload_generator:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_workload_generator#readme)
+    - [pdsp-bench_wui:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme) 
 1. [Prerequisites](#prerequisites)
 1. [Prepare the data](#preparedata)
 1. [Inference](#model)

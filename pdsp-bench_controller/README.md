@@ -3,7 +3,7 @@
 
 PDSP-Bench Controller acts a central management hub, orchestrating the benchmarking process and performance prediction across diverse workload and resource configurations.
 
--  It offers API endpoints for the frontend [PDSP-Bench WUI](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme) to take user input for resource provisioning on CloudLab clusters, deploying DSP system, e.g., Apache Flink on cluster, executing job on DSP systems and collecting parallel queries configuration and their performance in databases like MongoDB and SQLite DB.
+-  It offers API endpoints for the frontend [PDSP-Bench WUI](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme) to take user input for resource provisioning on CloudLab clusters, deploying DSP system, e.g., Apache Flink on cluster, executing job on DSP systems and collecting parallel queries configuration and their performance in databases like MongoDB and SQLite DB.
 
 ## Getting Started with Web User Interface (WUI) 
 
@@ -11,7 +11,7 @@ PDSP-Bench Controller acts a central management hub, orchestrating the benchmark
 1. [General Steps](#general)
     - [local and remote cluster environment](#local)
 1. [Setup CloudLab Cluster](#setupCluster)
-1. [Next steps: Setup and Start WUI](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme)
+1. [Next steps: Setup and Start WUI](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme)
 
 ## Prerequisite<a name="prerequisite"></a>
 - `Ubuntu 20.04` - we used Ubuntu 20.04 for setting up our local and remote clusters for PDSP-Bench.

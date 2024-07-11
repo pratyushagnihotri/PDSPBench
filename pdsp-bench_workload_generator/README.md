@@ -1,13 +1,13 @@
 <h1> PDSP-Bench Workload Generator </h1>
 
 PDSP-Bench workload generator is designed to generate parallel query plans for varying data stream and query parameters for under various resource configuration. It offers to generate parallel query plans for 14 real-world applications and 9 synthetic applications. We are describing 
-This component work can be used with A. [Web app- pdsp-bench_wui:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme) or B. command line interface (CLI) for workload generation.
-Both scenario offers to collect and generate data which include paralle query execution under varying scenario and corresponding performance metric. These collected data can be further used for performance benchmarking and training of different learned component of DSP [pdsp-bench_ml_models:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_ml_models#readme) for performance prediction. Model training is not part of PDSP-Bench systems. Currently, we are using pre-trained model on benchmarking data for performance prediction and analyzing different learned components of DSP system such learned cost models.
+This component work can be used with A. [Web app- pdsp-bench_wui:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme) or B. command line interface (CLI) for workload generation.
+Both scenario offers to collect and generate data which include paralle query execution under varying scenario and corresponding performance metric. These collected data can be further used for performance benchmarking and training of different learned component of DSP [pdsp-bench_ml_models:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_ml_models#readme) for performance prediction. Model training is not part of PDSP-Bench systems. Currently, we are using pre-trained model on benchmarking data for performance prediction and analyzing different learned components of DSP system such learned cost models.
 
 
 ## WUI: Workload Generation
-The workload generation with WUI allows simple steps of setting up - [pdsp-bench_controller:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_controller#readme) 
-and [pdsp-bench_wui:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme) to generate different parallel query plans in different scenarios for both real-world and synthetic applications.
+The workload generation with WUI allows simple steps of setting up - [pdsp-bench_controller:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_controller#readme) 
+and [pdsp-bench_wui:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme) to generate different parallel query plans in different scenarios for both real-world and synthetic applications.
 
 #### Visual representation of Data Generator in PDSP-Bench WUI
 After creating resource nodes on CloudLab and starting the PDPS-Bench controller and have the hostnames, you can move ahead to the frontend on the browser and perform the following tasks :
@@ -19,7 +19,7 @@ After creating resource nodes on CloudLab and starting the PDPS-Bench controller
 
 ## CLI: Workload Generation
 
-We are already explained how WUI part works in [pdsp-bench_wui:](https://github.com/pdspbench/PDSPBench/tree/master/pdsp-bench_wui#readme). Here we describe workload load generator applications and CLI process to generate data.
+We are already explained how WUI part works in [pdsp-bench_wui:](https://github.com/pratyushagnihotri/PDSPBench/tree/master/pdsp-bench_wui#readme). Here we describe workload load generator applications and CLI process to generate data.
 
 - pdspbench-management: The main instructions to setup is in pdspbench-management to generate high amount of workload using CLI. It consists collection of scripts that facilitate the seamless setup of both local and remote clusters. These clusters serve as the foundation for the parallel query plan generator and environment for learned component of DSP for training and test purpose.
 
@@ -43,7 +43,7 @@ This repository contains several shell scripts to setup:
     - [local cluster environment](#local)
     - [remote cluster environment](#remote)
 1. [General steps](#general)
-1. [Next steps: Generate data with plan generator](https://github.com/pdspbench/PDSPBench/tree/main/pdspbench-plan-generation)
+1. [Next steps: Generate data with plan generator](https://github.com/pratyushagnihotri/PDSPBench/tree/main/pdspbench-plan-generation)
 
 #### Prerequisite<a name="prerequisite"></a>
 All the necessary dependencies will be installed and setup by our scripts so you can easily start with new machine or VM. It is important to know few prerequisite for PDSPBench.

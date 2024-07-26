@@ -14,7 +14,7 @@ Please cite our papers, if you find this work useful or use it in your paper as 
 author      =     {Agnihotri, Pratyush and Koldehofe, Boris and Heinrich, Roman and Binnig, Carsten and Luthra, Manisha},
 title       =     {PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
 year        =     {2024},
-pages       =     {1--20},
+pages       =     {1--22},
 keywords    =     {C2},
 note        =     {Accepted at TPCTC}
 }

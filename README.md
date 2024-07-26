@@ -5,6 +5,22 @@
 
 PDSP-Bench, a novel benchmarking system specifically designed for benchmarking parallel and distributed stream processing on heterogeneous hardware configurations.
 
+## Citation
+
+Please cite our papers, if you find this work useful or use it in your paper as a baseline.
+
+```
+@unpublished{Agnihotri_VLDB_PDSPBench_2024,
+author      =     {Agnihotri, Pratyush and Koldehofe, Boris and Heinrich, Roman and Binnig, Carsten and Luthra, Manisha},
+title       =     {PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
+year        =     {2024},
+pages       =     {1--20},
+keywords    =     {C2},
+note        =     {Accepted at TPCTC}
+}
+
+```
+
 <h3>Dedicated Repository for Paper Submission:</h3>
 
 This repository is created to support our paper submission titled **PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing**, showcasing the capabilities of PDSP-Bench.

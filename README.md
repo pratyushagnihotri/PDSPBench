@@ -19,6 +19,15 @@ keywords    =     {C2},
 note        =     {Accepted at TPCTC}
 }
 
+@inproceedings{10.1145/3722212.3725100,
+author = {Agnihotri, Pratyush and Binnig, Carsten},
+title = {Demonstrating PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
+year = {2025},
+booktitle = {Companion of the 2025 International Conference on Management of Data},
+pages = {7–10},
+numpages = {4},
+}
+
 ```
 
 <h3>Dedicated Repository for Paper Submission:</h3>

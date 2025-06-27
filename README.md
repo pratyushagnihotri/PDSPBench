@@ -19,7 +19,7 @@ keywords    =     {C2},
 note        =     {Accepted at TPCTC}
 }
 
-@inproceedings{10.1145/3722212.3725100,
+@inproceedings{Agnihotri_SIGMOD_Demo_PDSPBench_2025,
 author = {Agnihotri, Pratyush and Binnig, Carsten},
 title = {Demonstrating PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
 year = {2025},

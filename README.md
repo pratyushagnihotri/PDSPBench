@@ -20,12 +20,12 @@ note        =     {Accepted at TPCTC}
 }
 
 @inproceedings{Agnihotri_SIGMOD_Demo_PDSPBench_2025,
-author = {Agnihotri, Pratyush and Binnig, Carsten},
-title = {Demonstrating PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
-year = {2025},
-booktitle = {Companion of the 2025 International Conference on Management of Data},
-pages = {7–10},
-numpages = {4},
+author      =     {Agnihotri, Pratyush and Binnig, Carsten},
+title       =     {Demonstrating PDSP-Bench: A Benchmarking System for Parallel and Distributed Stream Processing},
+year        =     {2025},
+booktitle   =     {Companion of the 2025 International Conference on Management of Data},
+pages       =     {7–10},
+numpages    =     {4},
 }
 
 ```
